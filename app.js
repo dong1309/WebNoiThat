@@ -19,7 +19,7 @@ app.use(
   session({
     secret: "thesecret",
     saveUninitialized: true,
-    resave: false,
+    resave: false, 
     cookie: {maxAge: Infinity, path: '/'}
   })
 );
